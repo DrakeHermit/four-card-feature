@@ -57,4 +57,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@DrakeHermit](https://www.frontendmentor.io/profile/DrakeHermi)
+- Frontend Mentor - [@DrakeHermit](https://www.frontendmentor.io/profile/DrakeHermit)
