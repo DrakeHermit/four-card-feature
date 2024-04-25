@@ -106,3 +106,54 @@ h2 {
 .card.blue::before {
   background-color: var(--blue);
 }
+
+@media screen and (min-width: 90rem) {
+  .main__content {
+    max-width: 95rem;
+    max-height: 100vh;
+    overflow-y: hidden;
+    padding: 3.5rem;
+  }
+  .header {
+    max-width: 33.75rem;
+    margin: 0 auto;
+  }
+  .header h1 {
+    font-size: 2.25rem;
+  }
+  .grid {
+    display: grid;
+    max-width: 69.37rem;
+    grid-template-columns: repeat(3, 21.87rem);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    transform: translateY(-10rem);
+  }
+  .grid h2 {
+    margin-bottom: 0.3rem;
+  }
+  .grid .card {
+    padding: 2.5rem 2rem;
+  }
+  .grid .card:first-child{
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .grid .card:nth-child(2){
+    grid-column-start: 2;
+    transform: translateY(10.6rem);
+    grid-row-start: 1;
+  }
+  .grid .card:nth-child(3){
+    grid-column-start: 2;
+    grid-row-start: 3;
+    transform: translateY(-10.6rem);
+  }
+  .grid .card:nth-child(4){
+    grid-row-start: 2;
+    grid-column-start: 3;
+  }
+  .card svg {
+    scale: 1;
+  }
+}
