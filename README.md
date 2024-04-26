@@ -12,11 +12,12 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
 ## Overview
+
+A fun design with 4 cards
 
 ### The challenge
 
@@ -26,14 +27,19 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/images/screenshot-desktop.png)
+![](/images/screenshot-mobile.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/DrakeHermit/four-card-feature)
+- Live Site URL: [Live Site](https://cheerful-empanada-c02b0d.netlify.app/)
 
 ## My process
+
+1. I started with the HTML markup
+2. Started with mobile first approach with CSS
+3. Finished with the desktop design
 
 ### Built with
 
@@ -44,16 +50,16 @@ Users should be able to:
 
 ### What I learned
 
-
+I actually learned quite a lot during this challenge.
+  - I learned to work with grid better
+  - Went with the mobile first approach which was a first for me
+  - Also I worked with pseudo element `::before` for the first time
+  - I also learned how to make that pseudo element get cut off by using `overflow: hidden`
+But at the end of the day there wasn't all that much going on in the layout, but I did get to work with grid.
 
 ### Continued development
 
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+I need to work with grid more because that's one are in CSS that I'm not that good at.
 
 ## Author
 
